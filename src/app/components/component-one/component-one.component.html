@@ -1,0 +1,181 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2>Form</h2>
+            <!-- <h2>Bootstrap Credit Card Form </h2>
+            <h6>Based on original idea by  <a href="http://www.designbootstrap.com/">DesignBootstrap.com</a> </h6>
+            <br /> -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-6">
+            <div class="credit-card-div">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <form [formGroup]="firstForm">
+                            <div class="row">
+                                <label>Field1:</label>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Field1" />
+
+                                    <!-- <input type="text" class="form-control" formControlName="field1" placeholder="Field1" /> -->
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- <label>Field2:</label> -->
+
+                                    <input type="text" class="form-control" placeholder="Field2" />
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- <label>Field3:</label> -->
+                                    <input type="text" class="form-control" placeholder="Field3" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label>Field2:</label>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Field1" />
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- <label>Field2:</label> -->
+
+                                    <input type="text" class="form-control" placeholder="Field2" />
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- <label>Field3:</label> -->
+                                    <input type="text" class="form-control" placeholder="Field3" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label>Field3:</label>
+
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Field1" />
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- <label>Field2:</label> -->
+
+                                    <input type="text" class="form-control" placeholder="Field2" />
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- <label>Field3:</label> -->
+                                    <input type="text" class="form-control" placeholder="Field3" />
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row ">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
+                                <input class="btn btn-warning btn-block" value="Submit" (click)="onSubmit()" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- CREDIT CARD DIV END -->
+        </div>
+        <div class="col-md-6 col-md-offset-6">
+            <div class="span7">
+                <div class="widget stacked widget-table action-table">
+                    <div class="widget-content">
+
+                        <table class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Engine</th>
+                                    <th>Browser</th>
+                                    <th class="td-actions"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Trident</td>
+                                    <td>Internet Explorer 4.0</td>
+                                    <td class="td-actions">
+                                        <a href="javascript:;" class="btn btn-small btn-primary">
+                                            <i class="btn-icon-only icon-ok"></i>
+                                        </a>
+
+                                        <a href="javascript:;" class="btn btn-small">
+                                            <i class="btn-icon-only icon-remove"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Trident</td>
+                                    <td>Internet Explorer 5.0</td>
+                                    <td class="td-actions">
+                                        <a href="javascript:;" class="btn btn-small btn-primary">
+                                            <i class="btn-icon-only icon-ok"></i>
+                                        </a>
+
+                                        <a href="javascript:;" class="btn btn-small">
+                                            <i class="btn-icon-only icon-remove"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Trident</td>
+                                    <td>Internet Explorer 5.5</td>
+                                    <td class="td-actions">
+                                        <a href="javascript:;" class="btn btn-small btn-primary">
+                                            <i class="btn-icon-only icon-ok"></i>
+                                        </a>
+
+                                        <a href="javascript:;" class="btn btn-small">
+                                            <i class="btn-icon-only icon-remove"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Trident</td>
+                                    <td>Internet Explorer 5.5</td>
+                                    <td class="td-actions">
+                                        <a href="javascript:;" class="btn btn-small btn-primary">
+                                            <i class="btn-icon-only icon-ok"></i>
+                                        </a>
+
+                                        <a href="javascript:;" class="btn btn-small">
+                                            <i class="btn-icon-only icon-remove"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Trident</td>
+                                    <td>Internet Explorer 5.5</td>
+                                    <td class="td-actions">
+                                        <a href="javascript:;" class="btn btn-small btn-primary">
+                                            <i class="btn-icon-only icon-ok"></i>
+                                        </a>
+
+                                        <a href="javascript:;" class="btn btn-small">
+                                            <i class="btn-icon-only icon-remove"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Trident</td>
+                                    <td>Internet Explorer 5.5</td>
+                                    <td class="td-actions">
+                                        <a href="javascript:;" class="btn btn-small btn-primary">
+                                            <i class="btn-icon-only icon-ok"></i>
+                                        </a>
+
+                                        <a href="javascript:;" class="btn btn-small">
+                                            <i class="btn-icon-only icon-remove"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!-- /widget-content -->
+
+                </div>
+                <!-- /widget -->
+            </div>
+        </div>
+    </div>
+</div>
